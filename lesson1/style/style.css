@@ -1,0 +1,64 @@
+.hi_title{
+    background: #999696;
+    color: #e03e3e;
+    border-radius: 17px;
+}
+.hi_family{
+    background: deepskyblue;
+    color: #ffffff;
+}
+.hi_family_text{
+    max-width: 1000px;
+}
+
+.w250_h300{
+    width: 250px;
+    height: 300px;
+}
+/*===============================*/
+.hi_homer{
+    background: #8686e3;
+    color: yellow;
+}
+.hi_homer:hover{
+    color: #f16610;
+}
+
+.hi_homer_text{
+    background: #000;
+    color: #ffffff;
+}
+/*===============================*/
+.hi_bart{
+    background: #09090c;
+    color: #ffffff;
+}
+.hi_bart:hover{
+    color: #aaa8a8;
+}
+
+.hi_bart_text{
+    background: #f50606;
+    color: #ffffff;
+    font-size: 23px;
+}
+/*===============================*/
+.hi_lisa{
+    background: #ee22e9;
+    color: yellow;
+}
+
+.hi_lisa:hover{
+    color: #ffffff;
+}
+
+.hi_lisa_text{
+    background: #cdc3c3;
+    color: #000;
+    max-width: 1180px;
+}
+/*===============================*/
+
+.hi_list{
+    background: lawngreen;
+}
