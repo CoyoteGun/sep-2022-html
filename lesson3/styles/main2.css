@@ -1,0 +1,53 @@
+.container{
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.card{
+    width: 300px;
+    height: 400px;
+    border: 1px solid black;
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.circle{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 95px;
+    background: #ffffff;
+}
+.fa-color-size{
+    color: coral;
+    font-size: 24px;
+}
+.header{
+    font-family: Arial, sans-serif;
+}
+.description{
+    text-align: center;
+    font-size: 23px;
+    color: #8b8989;
+}
+.btn{
+    width: 200px;
+    height: 45px;
+    border: 1px solid black;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 10px;
+    font-size: 20px;
+}
