@@ -3,10 +3,14 @@
     justify-content: center;
     align-items: center;
 }
-.block{
+.block {
     width: 750px;
     height: 650px;
     background: silver;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    margin-top: 20px;
 }
 .father{
     width: 750px;
@@ -24,4 +28,28 @@
     border-radius: 10px;
     position: relative;
     top: 50px;
+}
+.menu{
+    width: 650px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu_left{
+    width: 150px;
+    height: 50px;
+    background: #9393fc;
+    border-radius: 25px;
+}
+.menu_right{
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+}
+.fa-color{
+    color: #9393fc;
 }

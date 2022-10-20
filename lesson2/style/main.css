@@ -62,6 +62,7 @@ body{
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 2.8px;
+    text-decoration: none;
 }
 
 .btn_link:hover{
